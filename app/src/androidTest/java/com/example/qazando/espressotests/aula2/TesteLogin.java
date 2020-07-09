@@ -12,9 +12,7 @@ public class TesteLogin {
     @Rule
     public ActivityTestRule<LoginActivity>
             mActivityRule = new ActivityTestRule<>(LoginActivity.class, false, true);
-
-
-
+    
     @Test
     public void LogarComSucesso(){
         new RobotLogin2()
